@@ -11,7 +11,7 @@ echo -e "It has been forked from https://github.com/ddollar/heroku-buildpack-mul
 echo -e
 echo -e "This buildpack will cease to function at the stroke of midnight on December 1, 2017.${RESET}"
 
-[ $(date +%Y%m%d%H%M%S) -gt "20171201000000" ] && exit 1
+[ $(date +%Y%m%d%H%M%S) -gt "20181201000000" ] && exit 1
 
 function indent() {
   c='s/^/       /'
